@@ -23,6 +23,10 @@ def track_markup(_, videoid, user_id, channel, fplay):
             ),
         ],
         [
+            InlineKeyboardButton(text="✨ ᴏᴡɴᴇʀ", url=f"https://t.me/anjali_m_pRoJeCt"),
+            InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/anjali_music_bot_support"),
+        ],
+        [
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
@@ -42,6 +46,10 @@ def stream_markup(_, videoid):
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
+        ],
+        [
+            InlineKeyboardButton(text="✨ ᴏᴡɴᴇʀ", url=f"https://t.me/anjali_m_pRoJeCt"),
+            InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/anjali_music_bot_support"),
         ],
         [
             InlineKeyboardButton(
@@ -77,6 +85,10 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
                 text=_["P_B_2"],
                 callback_data=f"YukkiPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
             ),
+        ],
+        [
+            InlineKeyboardButton(text="✨ ᴏᴡɴᴇʀ", url=f"https://t.me/anjali_m_pRoJeCt"),
+            InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/anjali_music_bot_support"),
         ],
         [
             InlineKeyboardButton(

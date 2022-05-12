@@ -39,8 +39,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"],
-                callback_data=f"add_playlist {videoid}",
+                text="Owner,
+                url=f"https://t.me/anjali_music_bot_support",
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
